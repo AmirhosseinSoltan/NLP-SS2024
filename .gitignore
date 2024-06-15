@@ -1,1 +1,7 @@
 .DS_Store
+/myenv/
+/myenv/*
+
+*.pyc  # Python bytecode files
+*.pyo  # Python optimized bytecode files
+pip-log.txt  # pip log file, if present
