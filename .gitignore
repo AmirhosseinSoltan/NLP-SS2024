@@ -1,7 +1,10 @@
 .DS_Store
 /myenv/
 /myenv/*
-
-*.pyc  # Python bytecode files
-*.pyo  # Python optimized bytecode files
-pip-log.txt  # pip log file, if present
+*.pyc  
+*.pyo  
+pip-log.txt  
+Dataset_MovieSummaries/X_test.csv
+Dataset_MovieSummaries/X_train.csv
+Dataset_MovieSummaries/y_test.csv
+Dataset_MovieSummaries/y_train.csv
