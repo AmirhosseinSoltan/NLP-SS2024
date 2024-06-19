@@ -8,3 +8,4 @@ Dataset_MovieSummaries/X_test.csv
 Dataset_MovieSummaries/X_train.csv
 Dataset_MovieSummaries/y_test.csv
 Dataset_MovieSummaries/y_train.csv
+models/my_tfidf_min20.pkl
