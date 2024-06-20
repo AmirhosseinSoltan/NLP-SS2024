@@ -1,0 +1,48 @@
+from keras.models import Sequential
+from keras.layers import Dense, Dropout,BatchNormalization, Activation
+from keras.initializers import glorot_uniform
+from keras.callbacks import LearningRateScheduler, EarlyStopping
+from keras.regularizers import l2
+import math
+
+def step_decay_schedule(initial_lr=0.001, decay_factor=0.5, step_size=10):
+    def schedule(epoch):
+        return max(initial_lr * math.pow(decay_factor, math.floor((1+epoch)/step_size)), 0.000001)
+    return LearningRateScheduler(schedule)
+    
+learning_rate = 0.0001  # Adjust this value as needed
+optimizer = Adam(learning_rate=learning_rate)
+# Define the model
+model = Sequential()
+model.add(Dense(512, input_shape=(x_train.shape[1],), kernel_initializer=glorot_uniform(),kernel_regularizer=l2(0.05)))
+model.add(BatchNormalization())
+model.add(Activation('relu'))
+model.add(Dropout(0.5))
+model.add(Dense(128, kernel_initializer=glorot_uniform(),kernel_regularizer=l2(0.05)))
+model.add(BatchNormalization())
+model.add(Activation('relu'))
+model.add(Dropout(0.5))
+model.add(Dense(64, kernel_initializer=glorot_uniform(),kernel_regularizer=l2(0.05)))
+model.add(BatchNormalization())
+model.add(Activation('relu'))
+model.add(Dropout(0.5))
+model.add(Dense(y_train.shape[1], activation='sigmoid'))  # Output layer with softmax activation for multiclass classification
+
+# Compile the model
+model.compile(loss='binary_crossentropy', optimizer=optimizer, metrics=['accuracy'])
+
+# Print model summary
+model.summary()
+
+batch_size = 64
+epochs = 200
+early_stopping = EarlyStopping(monitor='val_loss', patience=6, restore_best_weights=True)
+
+# Train the model
+history = model.fit(x_train, y_train,
+                    batch_size=batch_size,
+                    epochs=epochs,
+                    verbose=1,
+                    validation_data=(x_val, y_val),
+                   shuffle=True,
+                   callbacks=[step_decay_schedule(initial_lr=0.0001, decay_factor=0.6, step_size=10),early_stopping ])
