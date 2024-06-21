@@ -595,6 +595,7 @@ INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/import/import.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/import/import.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/import/import.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/import/import.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/url/url.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/url/url.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/url/url.sty
@@ -730,13 +731,18 @@ INPUT ./subfiles/section1.tex
 INPUT ./subfiles/section1.tex
 INPUT subfiles/section1.tex
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/ae/aessbx10.tfm
-INPUT ./figures/b-it.pdf
-INPUT ./figures/b-it.pdf
-INPUT figures/b-it.pdf
-INPUT ./figures/b-it.pdf
-INPUT ./figures/b-it.pdf
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/ae/aessbx10.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm2986.tfm
+INPUT ./figures/output.png
+INPUT ./figures/output.png
+INPUT figures/output.png
+INPUT ./figures/output.png
+INPUT ./figures/output.png
+INPUT ./figures/output2.png
+INPUT ./figures/output2.png
+INPUT figures/output2.png
+INPUT ./figures/output2.png
+INPUT ./figures/output2.png
 INPUT ./subfiles/section2.tex
 INPUT ./subfiles/section2.tex
 INPUT ./subfiles/section2.tex
@@ -744,6 +750,16 @@ INPUT subfiles/section2.tex
 INPUT ./subfiles/section2.tex
 INPUT ./subfiles/section2.tex
 INPUT subfiles/section2.tex
+INPUT ./figures/Unbenanntes Diagramm.png
+INPUT ./figures/Unbenanntes Diagramm.png
+INPUT figures/Unbenanntes Diagramm.png
+INPUT ./figures/Unbenanntes Diagramm.png
+INPUT ./figures/Unbenanntes Diagramm.png
+INPUT ./figures/wordcloud.png
+INPUT ./figures/wordcloud.png
+INPUT figures/wordcloud.png
+INPUT ./figures/wordcloud.png
+INPUT ./figures/wordcloud.png
 INPUT ./subfiles/section3.tex
 INPUT ./subfiles/section3.tex
 INPUT ./subfiles/section3.tex
@@ -794,6 +810,7 @@ INPUT subfiles/footer.tex
 INPUT ./figures/b-it.pdf
 INPUT ./figures/b-it.pdf
 INPUT figures/b-it.pdf
+INPUT ./figures/b-it.pdf
 INPUT ./figures/b-it.pdf
 INPUT ./figures/brsu.eps
 INPUT ./figures/brsu.eps
