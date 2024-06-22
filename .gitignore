@@ -9,3 +9,7 @@ Dataset_MovieSummaries/X_train.csv
 Dataset_MovieSummaries/y_test.csv
 Dataset_MovieSummaries/y_train.csv
 models/my_tfidf_min20.pkl
+poster-template/hbrs-poster.log
+poster-template/hbrs-poster.aux
+poster-template/hbrs-poster.fdb_latexmk
+poster-template/hbrs-poster.synctex.gz
