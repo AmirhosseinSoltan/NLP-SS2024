@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.27)  21 JUN 2024 12:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.27)  22 JUN 2024 14:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -632,27 +632,27 @@ LaTeX Font Warning: Font shape `TS1/aess/m/n' undefined
 (Font)              using `TS1/cmr/m/n' instead
 (Font)              for symbol `textbullet' on input line 38.
 
-<figures/output.png, id=29, 813.7602pt x 880.2486pt>
+<figures/output.png, id=29, 790.6338pt x 880.2486pt>
 File: figures/output.png Graphic file (type png)
 <use figures/output.png>
 Package pdftex.def Info: figures/output.png  used on input line 38.
-(pdftex.def)             Requested size: 777.6745pt x 524.39243pt.
-<figures/output2.png, id=31, 404.712pt x 375.0813pt>
+(pdftex.def)             Requested size: 777.67503pt x 524.39243pt.
+<figures/output2.png, id=31, 419.166pt x 405.4347pt>
 File: figures/output2.png Graphic file (type png)
 <use figures/output2.png>
 Package pdftex.def Info: figures/output2.png  used on input line 38.
-(pdftex.def)             Requested size: 538.4393pt x 524.38911pt.
+(pdftex.def)             Requested size: 777.74751pt x 524.4358pt.
 ) (./subfiles/section2.tex
 <figures/Unbenanntes Diagramm.png, id=32, 2454.16875pt x 1704.3675pt>
 File: figures/Unbenanntes Diagramm.png Graphic file (type png)
 <use figures/Unbenanntes Diagramm.png>
-Package pdftex.def Info: figures/Unbenanntes Diagramm.png  used on input line 13.
+Package pdftex.def Info: figures/Unbenanntes Diagramm.png  used on input line 16.
 (pdftex.def)             Requested size: 957.12198pt x 828.8278pt.
-<figures/wordcloud.png, id=33, 849.1725pt x 849.1725pt>
-File: figures/wordcloud.png Graphic file (type png)
-<use figures/wordcloud.png>
-Package pdftex.def Info: figures/wordcloud.png  used on input line 13.
-(pdftex.def)             Requested size: 837.56067pt x 558.201pt.
+<figures/wordcloud2.png, id=33, 849.1725pt x 849.1725pt>
+File: figures/wordcloud2.png Graphic file (type png)
+<use figures/wordcloud2.png>
+Package pdftex.def Info: figures/wordcloud2.png  used on input line 16.
+(pdftex.def)             Requested size: 837.56067pt x 659.74747pt.
 ) (./subfiles/section3.tex) (./subfiles/section4.tex) (./hbrs-poster.bbl
 LaTeX Font Info:    Font shape `T1/aess/b/n' in size <35.83> not available
 (Font)              Font shape `T1/aess/bx/n' tried instead on input line 1.
@@ -699,21 +699,21 @@ Package pdftex.def Info: figures/brsu-eps-converted-to.pdf  used on input line 1
 (pdftex.def)             Requested size: 625.62389pt x 113.81102pt.
 ) [1
 
-{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./figures/output.png> <./figures/output2.png> <./figures/Unbenanntes Diagramm.png> <./figures/wordcloud.png> <./figures/qrcode-eps-converted-to.pdf> <./figures/b-it.pdf> <./figures/brsu-eps-converted-to.pdf>] (./hbrs-poster.aux)
+{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./figures/output.png> <./figures/output2.png> <./figures/Unbenanntes Diagramm.png> <./figures/wordcloud2.png> <./figures/qrcode-eps-converted-to.pdf> <./figures/b-it.pdf> <./figures/brsu-eps-converted-to.pdf>] (./hbrs-poster.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
  19708 strings out of 476025
- 427973 string characters out of 5790017
- 1883388 words of memory out of 5000000
+ 427980 string characters out of 5790017
+ 1884388 words of memory out of 5000000
  39725 multiletter control sequences out of 15000+600000
  545954 words of font info for 98 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  117i,11n,118p,554b,1464s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm2986.pfb>
-Output written on hbrs-poster.pdf (1 page, 805946 bytes).
+Output written on hbrs-poster.pdf (1 page, 798959 bytes).
 PDF statistics:
  75 PDF objects out of 1000 (max. 8388607)
  36 compressed objects within 1 object stream
