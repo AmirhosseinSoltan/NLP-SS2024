@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.27)  22 JUN 2024 14:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.27)  25 JUN 2024 10:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/Users/amir/Desktop/class/2nd Semester/NLP/Project/proj/NLP-SS2024/poster-template/hbrs-poster.tex"
-(/Users/amir/Desktop/class/2nd Semester/NLP/Project/proj/NLP-SS2024/poster-template/hbrs-poster.tex
+**"/Users/amir/Downloads/poster-template (1)/hbrs-poster.tex"
+(/Users/amir/Downloads/poster-template (1)/hbrs-poster.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22> (/usr/local/texlive/2023/texmf-dist/tex/latex/tikzposter/tikzposter.cls
 Document Class: tikzposter 2014/01/15 v2.0 LaTeX document class for Posters
@@ -617,43 +617,49 @@ LaTeX Font Info:    Font shape `T1/aess/b/sc' in size <61.92> not available
 (Font)              Font shape `T1/aess/bx/n' tried instead on input line 25.
 (./subfiles/layout.tex) (./subfiles/section1.tex
 LaTeX Font Info:    Font shape `T1/aess/b/n' in size <43> not available
-(Font)              Font shape `T1/aess/bx/n' tried instead on input line 38.
+(Font)              Font shape `T1/aess/bx/n' tried instead on input line 35.
 LaTeX Font Info:    Font shape `T1/aess/b/n' in size <29.86> not available
-(Font)              Font shape `T1/aess/bx/n' tried instead on input line 38.
+(Font)              Font shape `T1/aess/bx/n' tried instead on input line 35.
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
+Underfull \hbox (badness 10000) in paragraph at lines 35--35
 
  []
 
-LaTeX Font Info:    Trying to load font information for TS1+aess on input line 38.
-LaTeX Font Info:    No file TS1aess.fd. on input line 38.
+LaTeX Font Info:    Trying to load font information for TS1+aess on input line 35.
+LaTeX Font Info:    No file TS1aess.fd. on input line 35.
 
 LaTeX Font Warning: Font shape `TS1/aess/m/n' undefined
 (Font)              using `TS1/cmr/m/n' instead
-(Font)              for symbol `textbullet' on input line 38.
+(Font)              for symbol `textbullet' on input line 35.
 
 <figures/output.png, id=29, 790.6338pt x 880.2486pt>
 File: figures/output.png Graphic file (type png)
 <use figures/output.png>
-Package pdftex.def Info: figures/output.png  used on input line 38.
-(pdftex.def)             Requested size: 777.67503pt x 862.74521pt.
+Package pdftex.def Info: figures/output.png  used on input line 35.
+(pdftex.def)             Requested size: 777.67503pt x 575.13661pt.
 <figures/output2.png, id=31, 419.166pt x 405.4347pt>
 File: figures/output2.png Graphic file (type png)
 <use figures/output2.png>
-Package pdftex.def Info: figures/output2.png  used on input line 38.
-(pdftex.def)             Requested size: 777.74751pt x 524.4358pt.
+Package pdftex.def Info: figures/output2.png  used on input line 35.
+(pdftex.def)             Requested size: 777.74751pt x 405.97191pt.
 ) (./subfiles/section2.tex
-<figures/Unbenanntes Diagramm.png, id=32, 2396.955pt x 1692.3225pt>
+<figures/output4.png, id=32, 849.1725pt x 849.1725pt>
+File: figures/output4.png Graphic file (type png)
+<use figures/output4.png>
+Package pdftex.def Info: figures/output4.png  used on input line 21.
+(pdftex.def)             Requested size: 741.81909pt x 372.134pt.
+<figures/Unbenanntes Diagramm.png, id=33, 1797.71625pt x 1026.83624pt>
 File: figures/Unbenanntes Diagramm.png Graphic file (type png)
 <use figures/Unbenanntes Diagramm.png>
-Package pdftex.def Info: figures/Unbenanntes Diagramm.png  used on input line 16.
-(pdftex.def)             Requested size: 957.11919pt x 828.8063pt.
-<figures/wordcloud2.png, id=33, 849.1725pt x 849.1725pt>
-File: figures/wordcloud2.png Graphic file (type png)
-<use figures/wordcloud2.png>
-Package pdftex.def Info: figures/wordcloud2.png  used on input line 16.
-(pdftex.def)             Requested size: 837.56067pt x 659.74747pt.
-) (./subfiles/section3.tex) (./subfiles/section4.tex) (./hbrs-poster.bbl
+Package pdftex.def Info: figures/Unbenanntes Diagramm.png  used on input line 21.
+(pdftex.def)             Requested size: 981.0938pt x 642.78952pt.
+) (./subfiles/section3.tex
+<figures/results.jpg, id=34, 884.55469pt x 513.41812pt>
+File: figures/results.jpg Graphic file (type jpg)
+<use figures/results.jpg>
+Package pdftex.def Info: figures/results.jpg  used on input line 10.
+(pdftex.def)             Requested size: 777.72218pt x 375.49718pt.
+) (./subfiles/section4.tex) (./hbrs-poster.bbl
 LaTeX Font Info:    Font shape `T1/aess/b/n' in size <35.83> not available
 (Font)              Font shape `T1/aess/bx/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `T1/aess/m/it' in size <20.74> not available
@@ -669,15 +675,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--22
  []
 
 Package epstopdf Info: Source file: <figures/qrcode.eps>
-(epstopdf)                    date: 2024-06-22 14:31:49
-(epstopdf)                    size: 15120 bytes
+(epstopdf)                    date: 2024-06-25 08:36:00
+(epstopdf)                    size: 15632 bytes
 (epstopdf)             Output file: <figures/qrcode-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-06-22 14:33:09
+(epstopdf)                    date: 2024-06-25 08:36:00
 (epstopdf)                    size: 3942 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/qrcode-eps-converted-to.pdf figures/qrcode.eps>
 (epstopdf)             \includegraphics on input line 22.
 Package epstopdf Info: Output file is already uptodate.
-<figures/qrcode-eps-converted-to.pdf, id=34, 864.22874pt x 864.22874pt>
+<figures/qrcode-eps-converted-to.pdf, id=35, 864.22874pt x 864.22874pt>
 File: figures/qrcode-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/qrcode-eps-converted-to.pdf>
 Package pdftex.def Info: figures/qrcode-eps-converted-to.pdf  used on input line 22.
@@ -688,45 +694,45 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--22
  []
 
 ) (./subfiles/footer.tex
-<figures/b-it.pdf, id=35, 1949.2825pt x 516.93124pt>
+<figures/b-it.pdf, id=36, 1949.2825pt x 516.93124pt>
 File: figures/b-it.pdf Graphic file (type pdf)
 <use figures/b-it.pdf>
 Package pdftex.def Info: figures/b-it.pdf  used on input line 10.
 (pdftex.def)             Requested size: 429.14091pt x 113.81102pt.
 Package epstopdf Info: Source file: <figures/brsu.eps>
-(epstopdf)                    date: 2024-06-19 14:57:22
+(epstopdf)                    date: 2024-06-25 08:36:00
 (epstopdf)                    size: 228269 bytes
 (epstopdf)             Output file: <figures/brsu-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-06-19 15:25:38
+(epstopdf)                    date: 2024-06-25 08:36:00
 (epstopdf)                    size: 8830 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/brsu-eps-converted-to.pdf figures/brsu.eps>
 (epstopdf)             \includegraphics on input line 10.
 Package epstopdf Info: Output file is already uptodate.
-<figures/brsu-eps-converted-to.pdf, id=36, 1975.38pt x 359.3425pt>
+<figures/brsu-eps-converted-to.pdf, id=37, 1975.38pt x 359.3425pt>
 File: figures/brsu-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/brsu-eps-converted-to.pdf>
 Package pdftex.def Info: figures/brsu-eps-converted-to.pdf  used on input line 10.
 (pdftex.def)             Requested size: 625.62389pt x 113.81102pt.
 ) [1
 
-{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./figures/output.png> <./figures/output2.png> <./figures/Unbenanntes Diagramm.png> <./figures/wordcloud2.png> <./figures/qrcode-eps-converted-to.pdf> <./figures/b-it.pdf> <./figures/brsu-eps-converted-to.pdf>] (./hbrs-poster.aux)
+{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./figures/output.png> <./figures/output2.png> <./figures/output4.png> <./figures/Unbenanntes Diagramm.png> <./figures/results.jpg> <./figures/qrcode-eps-converted-to.pdf> <./figures/b-it.pdf> <./figures/brsu-eps-converted-to.pdf>] (./hbrs-poster.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 19708 strings out of 476025
- 427980 string characters out of 5790017
- 1885388 words of memory out of 5000000
- 39725 multiletter control sequences out of 15000+600000
+ 19716 strings out of 476025
+ 427996 string characters out of 5790017
+ 1888388 words of memory out of 5000000
+ 39731 multiletter control sequences out of 15000+600000
  545954 words of font info for 98 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 117i,11n,118p,554b,1464s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 117i,11n,118p,513b,1464s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm2986.pfb>
-Output written on hbrs-poster.pdf (1 page, 794636 bytes).
+Output written on hbrs-poster.pdf (1 page, 874095 bytes).
 PDF statistics:
- 75 PDF objects out of 1000 (max. 8388607)
+ 76 PDF objects out of 1000 (max. 8388607)
  36 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 144 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 149 words of extra memory for PDF output out of 10000 (max. 10000000)
 

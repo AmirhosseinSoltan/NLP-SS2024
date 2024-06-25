@@ -1,8 +1,8 @@
-PWD /Users/amir/Desktop/class/2nd Semester/NLP/Project/proj/NLP-SS2024/poster-template
+PWD /Users/amir/Downloads/poster-template (1)
 INPUT /usr/local/texlive/2023/texmf.cnf
 INPUT /usr/local/texlive/2023/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/amir/Desktop/class/2nd Semester/NLP/Project/proj/NLP-SS2024/poster-template/hbrs-poster.tex
+INPUT /Users/amir/Downloads/poster-template (1)/hbrs-poster.tex
 OUTPUT hbrs-poster.log
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/tikzposter/tikzposter.cls
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/tikzposter/tikzposter.cls
@@ -750,16 +750,16 @@ INPUT subfiles/section2.tex
 INPUT ./subfiles/section2.tex
 INPUT ./subfiles/section2.tex
 INPUT subfiles/section2.tex
+INPUT ./figures/output4.png
+INPUT ./figures/output4.png
+INPUT figures/output4.png
+INPUT ./figures/output4.png
+INPUT ./figures/output4.png
 INPUT ./figures/Unbenanntes Diagramm.png
 INPUT ./figures/Unbenanntes Diagramm.png
 INPUT figures/Unbenanntes Diagramm.png
 INPUT ./figures/Unbenanntes Diagramm.png
 INPUT ./figures/Unbenanntes Diagramm.png
-INPUT ./figures/wordcloud2.png
-INPUT ./figures/wordcloud2.png
-INPUT figures/wordcloud2.png
-INPUT ./figures/wordcloud2.png
-INPUT ./figures/wordcloud2.png
 INPUT ./subfiles/section3.tex
 INPUT ./subfiles/section3.tex
 INPUT ./subfiles/section3.tex
@@ -767,6 +767,11 @@ INPUT subfiles/section3.tex
 INPUT ./subfiles/section3.tex
 INPUT ./subfiles/section3.tex
 INPUT subfiles/section3.tex
+INPUT ./figures/results.jpg
+INPUT ./figures/results.jpg
+INPUT figures/results.jpg
+INPUT ./figures/results.jpg
+INPUT ./figures/results.jpg
 INPUT ./subfiles/section4.tex
 INPUT ./subfiles/section4.tex
 INPUT ./subfiles/section4.tex
