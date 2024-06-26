@@ -17,20 +17,27 @@
         Movie genre classification plays a crucial role in content recommendation systems by providing personalized movie suggestions, boosting user engagement. It significantly improves search functionality, allowing for efficient genre-based filtering and accurate search results. 
 
         This also provides valuable insights into audience preferences and market trends. This information is crucial for content producers and marketers to understand which genres are gaining popularity, which helps in making informed decisions about future content creation and marketing strategies.\\
-        % This classification also facilitates content analysis and insights, enabling trend analysis and guiding market research for informed content production and marketing decisions. Additionally, it supports content creation by helping creators align with genre norms and audience expectations, while also aiding in the curation of thematic or genre-specific collections to improve user experience
-        
-        
+        % This classification also facilitates content analysis and insights, enabling trend analysis and guiding market research for informed content production and marketing decisions. Additionally, it supports content creation by helping creators align with genre norms and audience expectations, while also aiding in the curation of thematic or genre-specific collections to improve user experience 
         \textbf{Dataset:}
         \begin{itemize}
             \item 42,306 movie plot summaries extracted from IMDB and Wikipedia,
             including 362 different genres, metadata about the actors and the movies. 
             \begin{tikzfigure}
-                \includegraphics[width=0.325\textwidth, height=0.17\textheight]{figures/output.png}
+                \includegraphics[width=0.325\textwidth, height=0.13\textheight]{figures/output.png}
             \end{tikzfigure}
-            \item Due to imbalanced number of labels for each movie genre, we needed to remove few-shot labels, and perform statistical sampling from the original dataset to prevent biased results from trained model.
-            \begin{tikzfigure}
-                \includegraphics[width=0.325\textwidth, height=0.12\textheight]{figures/output2.png}
-            \end{tikzfigure}
-        \end{itemize}    
+            \item \textbf{Note:} Multi-label classification of movies by genre is inherently challenging due to several reasons that might be contributing to the low performance. Some of these challenges include:
+            \begin{itemize}
+                \item Movie genres often have complex relationships and overlaps. For instance, a movie can be classified as both "Action" and "Adventure," and the boundaries between genres can be subjective. Due to complexity of the genre relationships, genres can have overlapping characteristics, making it difficult for models to distinguish between them based solely on features. To overcome this challenge, we visualized the correlation between various genres, maintaining the genres with reasonable amount of overlapping with other labels to improve the performance.
+                \begin{tikzfigure}
+                    \includegraphics[width=0.225\textwidth, height=0.14\textheight]{figures/output5.png}
+                \end{tikzfigure}
+                \item Movies typically have an imbalanced genre distribution; some genres are much more common than others. This imbalance can cause the model to be biased towards the more frequent genres. 
+                For this reason, we needed to remove few-shot labels at the first step, and perform statistical sampling from the original dataset to prevent biased results from trained model.
+                \begin{tikzfigure}
+                    \includegraphics[width=0.225\textwidth, height=0.10\textheight]{figures/output2.png}
+                    \includegraphics[width=0.225\textwidth, height=0.10\textheight]{figures/output3.png}
+                \end{tikzfigure}
+            \end{itemize}      
+        \end{itemize}   
     }
 \end{document}
