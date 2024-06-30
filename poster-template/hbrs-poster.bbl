@@ -1,0 +1,13 @@
+\begin{thebibliography}{1}
+
+\bibitem{MA2022115905}
+Yinglong Ma, Xiaofeng Liu, Lijiao Zhao, Yue Liang, Peng Zhang, and Beihong Jin.
+\newblock Hybrid embedding-based text representation for hierarchical multi-label text classification.
+\newblock {\em Expert Systems with Applications}, 187:115905, 2022.
+
+\bibitem{9169885}
+Linkun Cai, Yu~Song, Tao Liu, and Kunli Zhang.
+\newblock A hybrid bert model that incorporates label semantics via adjustive attention for multi-label text classification.
+\newblock {\em IEEE Access}, 8:152183--152192, 2020.
+
+\end{thebibliography}

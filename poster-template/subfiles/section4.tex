@@ -1,0 +1,15 @@
+%!TEX root = ../hbrs-poster.tex
+\documentclass[hbrs-poster.tex]{subfiles}
+\begin{document}
+    \block{Conclusion} 
+    {
+        The deep learning (DL) model, specifically designed for multilabel classification, consistently demonstrated superior performance compared to traditional machine learning algorithms such as Support Vector Machines (SVM), Logistic Regression (LR), and LightGBM (LGM). The model's predictions for that genre are mostly correct, minimizing the number of false positives and only misses some true instances of a particular genre. The model's validation performance is close to the training performance indicating good generalization capability.
+        \newline
+        \newline
+        The confusion matrix helps us visualize the model's working. From the confusion matrix, it is seen that the model mostly confuses between romance-comedy and thriller-crime, leading to the slight decrease in performance. This can be addressed through various feature extraction and contextual understanding strategies. Various other techniques could be explored in the future to overcome the correlation and similarity problems in movie genre classification. 
+        \newline
+        \newline
+        This model can be extended to identify more genres and use various other meta data to improve its robustness. Future work includes experimenting with different feature set and hyper-parameter tuning to optimize the model performance. More advanced models could be explored to understand the sequence and context of texts. Additionally, investigating interpretability methods for DL models could provide insights into how genre predictions are made, thereby increasing trust and usability.
+
+    }
+\end{document}
