@@ -16,7 +16,7 @@ This classification also facilitates content analysis and insights, enabling tre
 <img src="./poster-template/figures/output.png" alt="Alt text" width="800" height="500" align="center">
 - Movie genres often have complex relationships and overlaps, making it difficult for models to distinguish between them based solely on features. We visualized the correlation between various genres, maintaining the genres with reasonable amount of overlapping with other labels to improve the performance.
 
-<img src="./poster-template/figures/output2.png" alt="Alt text" width="470" height="250" align="left">
+<img src="./poster-template/figures/output2.png" alt="Alt text" width="400" height="250" align="left">
 <img src="./poster-template/figures/output3.png" alt="Alt text" width="500" height="250" align="right">
 
 - The imbalance in movies dataset can cause the model to be biased towards the more frequent genres. We remove few-shot labels at the first step, and perform statistical sampling from the original dataset to prevent biased results from trained model.
