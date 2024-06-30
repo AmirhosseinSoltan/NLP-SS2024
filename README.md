@@ -19,8 +19,8 @@ This classification also facilitates content analysis and insights, enabling tre
 <img src="./poster-template/figures/output.png" alt="Alt text" width="800" height="500" align="center">
 
 <div style="display: flex;">
-  <img src="./poster-template/figures/output2.png" alt="Alt text" width="300" height="250" style="float: left; margin-right: 10px;">
-  <img src="./poster-template/figures/output3.png" alt="Alt text" width="500" height="250" style="float: right; margin-left: 10px;">
+  <img src="./poster-template/figures/output2.png" alt="Alt text" width="3500" height="250" style="float: left; margin-right: 10px;">
+  <img src="./poster-template/figures/output3.png" alt="Alt text" width="350" height="250" style="float: right; margin-left: 10px;">
   
 </div>
 
